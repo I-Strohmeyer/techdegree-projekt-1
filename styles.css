@@ -18,7 +18,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #d36671;
 }
 
 /* Section Styles */
@@ -117,8 +117,21 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #563a50;
+  background: #22283b;
 }
+
+.article-img {
+  border-radius: 5px;
+  width: 300px;
+  height: 174;
+  ;
+}
+
+.article-img:hover {
+  transform: scale(2.0);
+  border: 3px solid white;
+}
+
 
 footer {
   width: 100%;
